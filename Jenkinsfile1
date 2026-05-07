@@ -2,7 +2,7 @@ pipeline {
    
     agent{
         
-          label 'python && dev'
+          label 'python && prod'
         
     }
     stages {

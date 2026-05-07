@@ -28,13 +28,13 @@ pipeline {
     }
     post {
         always {
-            echo 'This will always run'
+            echo 'Pipeline terminado...'
         }
         success {
-            echo 'This will run only if the pipeline succeeds'
+            echo 'completado con exito.'
         }
         failure {
-            echo 'This will run only if the pipeline fails'
+            echo 'completado con errores.'
         }
     }
 }
