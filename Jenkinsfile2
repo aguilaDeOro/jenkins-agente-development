@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Test') {
             agent{
-                label 'test && java'
+                label 'tests && java'
             }
             steps {
               echo "Testing ... in the node ${NODE_NAME}  and in the executor ${EXECUTOR_NUMBER}"
