@@ -2,7 +2,7 @@ pipeline {
    
     agent{
         node {
-            label 'Development'
+            label 'production-c'
         }
     }
     stages {
